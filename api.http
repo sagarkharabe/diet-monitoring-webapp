@@ -1,0 +1,19 @@
+POST http://localhost:5000/self/metric HTTP/1.1
+content-type: application/json
+
+{
+    "age":22,
+    "weight": 67,
+    "height": 170,
+    "userId": "easycal2@test.com"
+}
+
+###
+
+GET http://localhost:5000/self/metric?userId=U123
+
+###
+
+GET https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/mealplans/generate?timeFrame=week&targetCalories=2000&diet=vegetarian&exclude=shellfish%2C+olives HTTP/1.1
+X-RapidAPI-Host: spoonacular-recipe-food-nutrition-v1.p.rapidapi.com
+X-RapidAPI-Key: l4oSpayaRImshfMIxVnXttpcS8EDp1knCc4jsndVAzNcSg0Pv4
