@@ -15,7 +15,7 @@ const mockData = {
 			position: 0,
 			type: "RECIPE",
 			value:
-				'{"id":658803,"imageType":"jpg","title":"Rosemary Rum Raisin Soda Bread with Pecans"}',
+				'{"id":658803,"imageType":"jpg","title":"Rosemary Rum Raisin Soda Bread with Pecans"}'
 		},
 		{
 			day: 1,
@@ -23,7 +23,7 @@ const mockData = {
 			slot: 2,
 			position: 0,
 			type: "RECIPE",
-			value: '{"id":633754,"imageType":"jpg","title":"Baked Ratatouille"}',
+			value: '{"id":633754,"imageType":"jpg","title":"Baked Ratatouille"}'
 		},
 		{
 			day: 1,
@@ -32,7 +32,7 @@ const mockData = {
 			position: 0,
 			type: "RECIPE",
 			value:
-				'{"id":649850,"imageType":"jpg","title":"Lemon-Pepper Fettucine Alfredo"}',
+				'{"id":649850,"imageType":"jpg","title":"Lemon-Pepper Fettucine Alfredo"}'
 		},
 		{
 			day: 2,
@@ -40,7 +40,7 @@ const mockData = {
 			slot: 1,
 			position: 0,
 			type: "RECIPE",
-			value: '{"id":636087,"imageType":"jpg","title":"Breakfast: Waffles"}',
+			value: '{"id":636087,"imageType":"jpg","title":"Breakfast: Waffles"}'
 		},
 		{
 			day: 2,
@@ -49,7 +49,7 @@ const mockData = {
 			position: 0,
 			type: "RECIPE",
 			value:
-				'{"id":782619,"imageType":"png","title":"Mushroom Goat Cheese Baked Eggs"}',
+				'{"id":782619,"imageType":"png","title":"Mushroom Goat Cheese Baked Eggs"}'
 		},
 		{
 			day: 2,
@@ -58,7 +58,7 @@ const mockData = {
 			position: 0,
 			type: "RECIPE",
 			value:
-				'{"id":633824,"imageType":"jpg","title":"Baked Stuffed Potatoes (Tandoori Potatoes)"}',
+				'{"id":633824,"imageType":"jpg","title":"Baked Stuffed Potatoes (Tandoori Potatoes)"}'
 		},
 		{
 			day: 3,
@@ -67,7 +67,7 @@ const mockData = {
 			position: 0,
 			type: "RECIPE",
 			value:
-				'{"id":635649,"imageType":"jpg","title":"Bon \\u201cApple\\u201d Tite Cinnamon Rolls"}',
+				'{"id":635649,"imageType":"jpg","title":"Bon \\u201cApple\\u201d Tite Cinnamon Rolls"}'
 		},
 		{
 			day: 3,
@@ -76,7 +76,7 @@ const mockData = {
 			position: 0,
 			type: "RECIPE",
 			value:
-				'{"id":633744,"imageType":"jpg","title":"Baked Potatoes with Creamy Mushroom Ragout"}',
+				'{"id":633744,"imageType":"jpg","title":"Baked Potatoes with Creamy Mushroom Ragout"}'
 		},
 		{
 			day: 3,
@@ -85,7 +85,7 @@ const mockData = {
 			position: 0,
 			type: "RECIPE",
 			value:
-				'{"id":635217,"imageType":"jpg","title":"Blackberry Grilled Cheese Sandwich"}',
+				'{"id":635217,"imageType":"jpg","title":"Blackberry Grilled Cheese Sandwich"}'
 		},
 		{
 			day: 4,
@@ -94,7 +94,7 @@ const mockData = {
 			position: 0,
 			type: "RECIPE",
 			value:
-				'{"id":636588,"imageType":"jpg","title":"Butternut Squash French Toast"}',
+				'{"id":636588,"imageType":"jpg","title":"Butternut Squash French Toast"}'
 		},
 		{
 			day: 4,
@@ -103,7 +103,7 @@ const mockData = {
 			position: 0,
 			type: "RECIPE",
 			value:
-				'{"id":658743,"imageType":"jpg","title":"Roll Up Eggplant Lasagna"}',
+				'{"id":658743,"imageType":"jpg","title":"Roll Up Eggplant Lasagna"}'
 		},
 		{
 			day: 4,
@@ -112,7 +112,7 @@ const mockData = {
 			position: 0,
 			type: "RECIPE",
 			value:
-				'{"id":664967,"imageType":"png","title":"Warm Open-Faced Mushroom Brie Sandwich"}',
+				'{"id":664967,"imageType":"png","title":"Warm Open-Faced Mushroom Brie Sandwich"}'
 		},
 		{
 			day: 5,
@@ -121,7 +121,7 @@ const mockData = {
 			position: 0,
 			type: "RECIPE",
 			value:
-				'{"id":648006,"imageType":"jpg","title":"Irish Soda Bread By Mommie Cooks"}',
+				'{"id":648006,"imageType":"jpg","title":"Irish Soda Bread By Mommie Cooks"}'
 		},
 		{
 			day: 5,
@@ -129,7 +129,7 @@ const mockData = {
 			slot: 2,
 			position: 0,
 			type: "RECIPE",
-			value: '{"id":648470,"imageType":"jpg","title":"Japanese Curry Puffs"}',
+			value: '{"id":648470,"imageType":"jpg","title":"Japanese Curry Puffs"}'
 		},
 		{
 			day: 5,
@@ -138,7 +138,7 @@ const mockData = {
 			position: 0,
 			type: "RECIPE",
 			value:
-				'{"id":157272,"imageType":"jpg","title":"Pomegranate-Nutella Waffles"}',
+				'{"id":157272,"imageType":"jpg","title":"Pomegranate-Nutella Waffles"}'
 		},
 		{
 			day: 6,
@@ -147,7 +147,7 @@ const mockData = {
 			position: 0,
 			type: "RECIPE",
 			value:
-				'{"id":655239,"imageType":"jpg","title":"Peanut Butter Banana French Toast"}',
+				'{"id":655239,"imageType":"jpg","title":"Peanut Butter Banana French Toast"}'
 		},
 		{
 			day: 6,
@@ -155,7 +155,7 @@ const mockData = {
 			slot: 2,
 			position: 0,
 			type: "RECIPE",
-			value: '{"id":652919,"imageType":"jpg","title":"Nachos Grande"}',
+			value: '{"id":652919,"imageType":"jpg","title":"Nachos Grande"}'
 		},
 		{
 			day: 6,
@@ -163,7 +163,7 @@ const mockData = {
 			slot: 3,
 			position: 0,
 			type: "RECIPE",
-			value: '{"id":617047,"imageType":"jpg","title":"Rasmalai "}',
+			value: '{"id":617047,"imageType":"jpg","title":"Rasmalai "}'
 		},
 		{
 			day: 7,
@@ -172,7 +172,7 @@ const mockData = {
 			position: 0,
 			type: "RECIPE",
 			value:
-				'{"id":655786,"imageType":"jpg","title":"Persimmons Pumpkin Orange Smoothie With Chia Seeds"}',
+				'{"id":655786,"imageType":"jpg","title":"Persimmons Pumpkin Orange Smoothie With Chia Seeds"}'
 		},
 		{
 			day: 7,
@@ -180,7 +180,7 @@ const mockData = {
 			slot: 2,
 			position: 0,
 			type: "RECIPE",
-			value: '{"id":640234,"imageType":"jpg","title":"Couscous Biryani"}',
+			value: '{"id":640234,"imageType":"jpg","title":"Couscous Biryani"}'
 		},
 		{
 			day: 7,
@@ -189,15 +189,15 @@ const mockData = {
 			position: 0,
 			type: "RECIPE",
 			value:
-				'{"id":632108,"imageType":"jpg","title":"Almond Cake With Orange Marmalade"}',
-		},
-	],
+				'{"id":632108,"imageType":"jpg","title":"Almond Cake With Orange Marmalade"}'
+		}
+	]
 };
 
 const options = [
 	{ value: "chocolate", label: "Chocolate" },
 	{ value: "strawberry", label: "Strawberry" },
-	{ value: "vanilla", label: "Vanilla" },
+	{ value: "vanilla", label: "Vanilla" }
 ];
 
 export default class PlanView extends Component {
@@ -208,12 +208,13 @@ export default class PlanView extends Component {
 				weight: "",
 				height: "",
 				age: "",
-				exclusions: "",
+				dietType: "",
+				exclusions: ""
 			},
 
 			userId: "",
 			metric: {},
-			saving: false,
+			saving: false
 		};
 	}
 
@@ -228,11 +229,9 @@ export default class PlanView extends Component {
 			.then(function(res) {
 				return res.json();
 			})
-			.then((json) => {
-				console.log(json);
-
+			.then(json => {
 				if (json.metric) {
-					const { age, height, weight, userId } = json.metric;
+					const { age, height, weight, userId, dietType } = json.metric;
 
 					this.setState({
 						userId,
@@ -241,8 +240,9 @@ export default class PlanView extends Component {
 							age,
 							height,
 							weight,
+							dietType
 						},
-						metric: json.metric,
+						metric: json.metric
 					});
 				}
 			});
@@ -260,62 +260,62 @@ export default class PlanView extends Component {
 		this.getMealPlan(calories);
 	};
 
-	getMealPlan = (calories) => {
-		/* const timeFrame = "week";
-		const targetCalories = calories;
-		const dietType = "vegetarian";
+	getMealPlan = calories => {
+		// const timeFrame = "week";
+		// const targetCalories = calories;
+		// const dietType = "vegetarian";
 
-		const url = `https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/mealplans/generate?timeFrame=${timeFrame}&targetCalories=${targetCalories}&diet=${dietType}&exclude=shellfish%2C+olives`;
+		// const url = `https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/mealplans/generate?timeFrame=${timeFrame}&targetCalories=${targetCalories}&diet=${dietType}&exclude=shellfish%2C+olives`;
 
-		const headers = {
-			"X-RapidAPI-Host": "spoonacular-recipe-food-nutrition-v1.p.rapidapi.com",
-			"X-RapidAPI-Key": "l4oSpayaRImshfMIxVnXttpcS8EDp1knCc4jsndVAzNcSg0Pv4",
-		};
+		// const headers = {
+		// 	"X-RapidAPI-Host": "spoonacular-recipe-food-nutrition-v1.p.rapidapi.com",
+		// 	"X-RapidAPI-Key": "l4oSpayaRImshfMIxVnXttpcS8EDp1knCc4jsndVAzNcSg0Pv4"
+		// };
 
-		fetch(url, { headers })
-			.then(function(res) {
-				return res.json();
-			})
-			.then(function(json) {
-				console.log(json);
-            }); */
+		// fetch(url, { headers })
+		// 	.then(function(res) {
+		// 		return res.json();
+		// 	})
+		// 	.then(function(json) {
+		// 		console.log("plan", json);
+		// 	});
 
 		return mockData;
 	};
 
-	handleInputChange = (e) => {
+	handleInputChange = e => {
 		// console.log(e.target.value, e.target.name);
 
 		let fieldChanged = e.target.name;
 		this.setState({
 			form: {
 				...this.state.form,
-				[fieldChanged]: e.target.value,
-			},
+				[fieldChanged]: e.target.value
+			}
 		});
 	};
 
-	onMultiSelectChange = (e) => {
+	onMultiSelectChange = e => {
 		console.log(e);
 		this.setState({
 			form: {
 				...this.state.form,
-				exclusions: e.map((e) => e.value).join(","),
-			},
+				exclusions: e.map(e => e.value).join(",")
+			}
 		});
 	};
 
-	onSelectChange = (e) => {
+	onSelectChange = e => {
 		console.log(e);
 		this.setState({
 			form: {
 				...this.state.form,
-				dietType: e.value,
-			},
+				dietType: e.value
+			}
 		});
 	};
 
-	handleOnSave = (e) => {
+	handleOnSave = e => {
 		const userToken = decodeToken(localStorage.getItem("token"));
 		const userEmailAddress = userToken.emailAddress;
 
@@ -332,23 +332,25 @@ export default class PlanView extends Component {
 			method: "POST",
 			headers: {
 				Accept: "application/json",
-				"Content-Type": "application/json",
+				"Content-Type": "application/json"
 			},
-			body: JSON.stringify(form),
+			body: JSON.stringify(form)
 		})
-			.then(function(res) {
-				return res.json();
+			.then(res => {
+				console.log(res);
 			})
-			.then(function(json) {
-				console.log(json);
-			});
+			.catch(err => console.log("ERR at save ", err));
 	};
 
 	render() {
 		let saveButton;
 		if (!this.state.saving) {
 			saveButton = (
-				<button type="submit" className="CreateFoodView__submit-button">
+				<button
+					type="submit"
+					className="CreateFoodView__submit-button"
+					onClick={this.handleOnSave}
+				>
 					Save
 				</button>
 			);
@@ -425,17 +427,17 @@ export default class PlanView extends Component {
 						<label htmlFor="veg">Diet Type</label>
 						<Select
 							onChange={this.onSelectChange}
-							defaultValue={[]}
+							defaultValue={this.state.form.dietType}
 							name="veg"
 							options={[
 								{
 									value: "veg",
-									label: "Vegan",
+									label: "Vegan"
 								},
 								{
 									value: "all",
-									label: "All",
-								},
+									label: "All"
+								}
 							]}
 							className="basic-multi-select"
 							classNamePrefix="select"
@@ -460,7 +462,7 @@ export default class PlanView extends Component {
 									<th>Saturday</th>
 									<th>Sunday</th>
 								</tr>
-								{[0, 1, 2].map((e) => (
+								{[0, 1, 2].map(e => (
 									<tr key={e}>
 										{chunk(mockData.items, 3).map((d, i) => {
 											return <td key={i}>{JSON.parse(d[e].value).title}</td>;
