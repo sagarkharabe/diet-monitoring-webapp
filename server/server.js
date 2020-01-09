@@ -15,15 +15,18 @@ console.log("ENV is", NODE_ENV);
 
 // Put your production mongo url here
 const DATABASE_URL =
-	NODE_ENV === "PROD" ? "" : "mongodb://localhost:27017/easycal";
+	"mongodb://sagar:sagar5544@ds119755.mlab.com:19755/diet-plan-manager";
 
 //moongose init
 mongoose
-	.connect(DATABASE_URL)
-	.then((k) => {
+	.connect(DATABASE_URL, {
+		useNewUrlParser: true,
+		useUnifiedTopology: true
+	})
+	.then(k => {
 		console.log("connected to mongo at ", k.connections[0].host);
 	})
-	.catch((err) => console.log("error connecting to mongo ", err));
+	.catch(err => console.log("error connecting to mongo ", err));
 
 mongoose.Promise = global.Promise;
 
@@ -39,21 +42,21 @@ app.use(volleyball);
 app.set("trust proxy", 1);
 app.use(
 	bodyParser.json({
-		limit: "50mb",
+		limit: "50mb"
 	})
 );
 app.use(
 	bodyParser.urlencoded({
 		limit: "50mb",
 		extended: true,
-		parameterLimit: 50000,
+		parameterLimit: 50000
 	})
 );
 
 //REMOVE ORIGIN IN PROD
 app.use(
 	cors({
-		credentials: true,
+		credentials: true
 	})
 );
 
@@ -68,7 +71,7 @@ app.get("/self/metric", async (req, res) => {
 		console.log("userId", userId);
 
 		let metric = await Metric.findOne({
-			userId,
+			userId
 		});
 
 		res.send({ s: true, metric });
@@ -80,19 +83,20 @@ app.get("/self/metric", async (req, res) => {
 
 app.post("/self/metric", async (req, res) => {
 	try {
-		let { age, weight, height, userId } = req.body;
+		let { age, weight, height, userId, dietType } = req.body;
 		console.log("userId", userId);
 
 		const metric = {
 			age,
 			weight,
 			height,
-			userId,
+			dietType,
+			userId
 		};
 
 		let m = await Metric.updateOne({ userId }, metric, {
 			upsert: true,
-			setDefaultsOnInsert: true,
+			setDefaultsOnInsert: true
 		});
 
 		console.log("got metric", metric);
