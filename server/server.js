@@ -113,4 +113,3 @@ app.post("/self/metric", async (req, res) => {
 app.get("/*", function(req, res) {
 	res.sendFile(__dirname + "/public/index.html");
 });
-//-----------------------------------------------------
