@@ -100,15 +100,13 @@ class DayView extends Component {
 				date +
 				"&token=" +
 				localStorage.getItem("token")
-		)
-			.then(resp => JSON.parse(resp))
-			.then(activity => {
-				if (activity.caloriesBurned === 0) {
-					this.setState({ caloriesBurned: undefined });
-				} else {
-					this.setState({ caloriesBurned: activity.caloriesBurned });
-				}
-			});
+		).then(activity => {
+			if (activity.caloriesBurned === 0) {
+				this.setState({ caloriesBurned: undefined });
+			} else {
+				this.setState({ caloriesBurned: activity.caloriesBurned });
+			}
+		});
 	}
 
 	getGoals() {
@@ -120,11 +118,9 @@ class DayView extends Component {
 				userId +
 				"?token=" +
 				localStorage.getItem("token")
-		)
-			.then(resp => JSON.parse(resp))
-			.then(goals => {
-				this.setState({ goals: goals });
-			});
+		).then(goals => {
+			this.setState({ goals: goals });
+		});
 	}
 
 	changeSelectedDay(newDay) {
