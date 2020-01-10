@@ -222,7 +222,7 @@ export default class PlanView extends Component {
 		const userToken = decodeToken(localStorage.getItem("token"));
 		const userEmailAddress = userToken.emailAddress;
 
-		const getUserMetricsURL = `http://localhost:5000/self/metric?userId=${userEmailAddress}`;
+		const getUserMetricsURL = `/self/metric?userId=${userEmailAddress}`;
 
 		// get user metrics
 		fetch(getUserMetricsURL)
