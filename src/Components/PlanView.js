@@ -319,7 +319,7 @@ export default class PlanView extends Component {
 		const userToken = decodeToken(localStorage.getItem("token"));
 		const userEmailAddress = userToken.emailAddress;
 
-		const saveUserMetricsURL = `http://localhost:5000/self/metric`;
+		const saveUserMetricsURL = `/self/metric`;
 
 		const form = this.state.form;
 
