@@ -30,7 +30,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "dev": "concurrently \"npm run server\" \"npm run start\"",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install client && npm run build"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix server"
   },
   "devDependencies": {}
 }
