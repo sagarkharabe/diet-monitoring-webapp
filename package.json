@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "client": "0.0.1",
     "hoek": "^5.0.3",
     "immutability-helper": "^2.6.6",
     "jwt-decode": "^2.2.0",
@@ -22,13 +23,14 @@
   "proxy": "http://localhost:5000",
   "scripts": {
     "start": "react-scripts start",
-    "server": "cd server && npm start",
+    "server": "cd server && nodemon server.js",
+    "client": "npm install",
     "build": "react-scripts build",
     "copybuild": "copyfiles -a -u 1 \"./build/**/*\" ./server/public/",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "dev": "concurrently \"npm run server\" \"npm run start\"",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix server && npm run build --prefix server"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install client && npm run build"
   },
   "devDependencies": {}
 }

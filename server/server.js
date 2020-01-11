@@ -5,7 +5,6 @@ var path = require("path");
 var cors = require("cors");
 var helmet = require("helmet");
 const mongoose = require("mongoose");
-var session = require("express-session");
 
 var app = express();
 
@@ -110,6 +109,13 @@ app.post("/self/metric", async (req, res) => {
 
 //This route is for the website
 //------------------------------------------------------
-app.get("/*", function(req, res) {
-	res.sendFile(__dirname + "/public/index.html");
-});
+
+if (process.env.NODE_ENV === "production") {
+	app.use(express.static("/build"));
+	app.get("*", (req, res) => {
+		res.sendFile(__dirname + "/build/index.html");
+	});
+} else
+	app.get("/*", function(req, res) {
+		res.sendFile(__dirname + "/public/index.html");
+	});
